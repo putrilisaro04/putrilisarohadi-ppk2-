@@ -182,15 +182,14 @@ footer {
   padding-top: 30px;
 }
 /untuk tablet/
-@media screen and (max-width:1080px)
+@media screen and (max-width:1000px)
 {
-    .badan-utama
+    .item
     {
-        width: 100%;
+        width: 50%;
     }
  
-    .menu-kiri
-    {
+    * {box-sizing:border-box;
         width: 25%;
     }
  
